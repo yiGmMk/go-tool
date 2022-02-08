@@ -1,4 +1,4 @@
-module github.com/yiGmMk/go-tool.git
+module github.com/yiGmMk/go-tool
 
 go 1.17
 
