@@ -3,6 +3,7 @@ module github.com/yiGmMk/go-tool
 go 1.17
 
 require (
+	github.com/duke-git/lancet/v2 v2.0.7
 	github.com/pkg/errors v0.9.1
 	github.com/shopspring/decimal v1.3.1
 	github.com/smartystreets/goconvey v1.7.2

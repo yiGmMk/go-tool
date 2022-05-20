@@ -5,6 +5,8 @@ import (
 	"unicode"
 )
 
+// 去除非数字字符
+// remove characters in string except digit
 func RemoveExceptDigit(origin string) string {
 	b := strings.Builder{}
 	for _, v := range origin {
