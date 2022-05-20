@@ -119,9 +119,8 @@ func BenchmarkConvert(b *testing.B) {
 			out: "玖仟玖佰玖拾玖亿玖仟玖佰玖拾玖万壹仟贰佰叁拾贰元贰角叁分",
 		},
 	}
+	num := len(ts)
 	for i := 0; i < b.N; i++ {
-		for _, test := range ts {
-			Number2ChineseYUAN(test.in, true)
-		}
+		Number2ChineseYUAN(ts[i%num].in, true)
 	}
 }
