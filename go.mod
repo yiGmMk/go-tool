@@ -1,6 +1,6 @@
 module github.com/yiGmMk/go-tool
 
-go 1.17
+go 1.18
 
 require (
 	github.com/duke-git/lancet/v2 v2.0.7
