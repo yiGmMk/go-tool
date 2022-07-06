@@ -16,3 +16,14 @@ func RemoveExceptDigit(origin string) string {
 	}
 	return b.String()
 }
+
+// 去除非数字字符
+// implemtation using strings.Map
+func RemoveExceptDigit2(origin string) string {
+	return strings.Map(func(r rune) rune {
+		if !unicode.IsDigit(r) {
+			return -1
+		}
+		return r
+	}, origin)
+}
