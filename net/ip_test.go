@@ -6,7 +6,7 @@ import (
 )
 
 func TestIp(t *testing.T) {
-	ip, err := GetLocalIp()
+	ip, err := GetLocalIP()
 	if err != nil {
 		t.Error(err)
 	}

@@ -15,7 +15,7 @@ var (
 	min = decimal.NewFromFloat(-9999_9999_9999_9999.99)
 )
 
-/**
+/*Number2ChineseYUAN
  * @description: 数字转换成大写中文数字金额
  * @param {decimal.Decimal} val 需要转换的数字
  * @param {*} isTraditional 是否繁体
