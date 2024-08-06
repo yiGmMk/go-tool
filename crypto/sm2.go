@@ -8,6 +8,8 @@ import (
 	"github.com/tjfoc/gmsm/sm2"
 )
 
+// sm2支持C1C2C3/C1C3C2 2种模式,Hutool 默认使用C1C3C2
+
 // private  public
 func Key2String(k *sm2.PrivateKey) (string, string) {
 	kPri, kPub := k, k.PublicKey
