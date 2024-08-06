@@ -7,6 +7,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/shopspring/decimal v1.3.1
 	github.com/smartystreets/goconvey v1.7.2
+	github.com/tjfoc/gmsm v1.4.1
 )
 
 require (
